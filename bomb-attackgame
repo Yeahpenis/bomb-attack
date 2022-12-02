@@ -1,0 +1,44 @@
+
+<!doctype html>
+<html lang='en'>
+<head>
+  <title>Bomb Attack</title>
+  <link rel='stylesheet' href='css/base.css'/>
+
+  <script src='lib/phase-slide.js'></script>
+  <script src='lib/phaser.min.js'></script>
+  <script src='/socket.io/socket.io.js'></script>
+
+  <script src='bundle.js'></script>
+  
+  <!-- Default Statcounter code for stat
+https://melon-games.glitch.me/ -->
+<script type="text/javascript">
+var sc_project=12448481; 
+var sc_invisible=1; 
+var sc_security="ab225235"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12448481/0/ab225235/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+  
+
+  <script>
+    window.clientSocket = io.connect();
+  </script>
+</head>
+<body>
+  <div id='game-wrapper'>
+    <div id='game-container'>
+
+    </div>
+  </div>
+</body>
+</html>
